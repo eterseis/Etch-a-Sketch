@@ -12,6 +12,7 @@
 
 html, body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -37,4 +38,29 @@ html, body{
     flex-basis: 100%;
     border: 0.09rem solid var(--clr-dark);
     border-radius: 0.1rem;
+}
+
+.newGrid{
+    border: none;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    text-transform: uppercase;
+    background-color: gainsboro;
+    box-shadow: 0.7rem 0.7rem var(--clr-dark);
+    transition: 0.2s;
+}
+
+.newGrid:hover{
+    color: gainsboro;
+    background-color: var(--clr-dark);
+    transition: 0.2s;
+}
+
+.newGrid:focus{
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px var(--clr-dark);
+    transition: 0.1s;
 }
