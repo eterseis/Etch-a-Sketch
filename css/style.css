@@ -40,7 +40,7 @@ html, body{
     border-radius: 0.1rem;
 }
 
-.newGrid{
+.btn-newGrid{
     border: none;
     margin-bottom: 2rem;
     padding: 1rem;
@@ -52,15 +52,16 @@ html, body{
     transition: 0.2s;
 }
 
-.newGrid:hover{
+.btn-newGrid:hover{
     color: gainsboro;
     background-color: var(--clr-dark);
     transition: 0.2s;
+    box-shadow: 0 0 0 0.2rem gainsboro;    
 }
 
-.newGrid:focus{
+.btn-newGrid:focus{
     outline-color: transparent;
     outline-style: solid;
-    box-shadow: 0 0 0 4px var(--clr-dark);
+    box-shadow: 0 0 0 0.2rem var(--clr-dark);
     transition: 0.1s;
 }
